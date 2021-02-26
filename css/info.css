@@ -1,0 +1,211 @@
+/******************************* TAG SELECTORS ***********************************/
+body{
+  text-align: center;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 500;
+}
+
+/******************************* HEADINGS ***********************************/
+
+.big-heading{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.section-subtitle{
+  font-size: 150%;
+  margin: 1rem;
+  color: #000;
+}
+
+.section-subtitle-white{
+  font-size: 150%;
+  margin: 1rem;
+  color: #fff;
+}
+
+.subtitle{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/********************************** SECTIONS ***********************************/
+
+.yellow-section{
+  background-color: #ff0;
+  color: #000;
+}
+
+.blue-section{
+  background-color: #00f;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+  color: #000;
+}
+
+/******************************* ID SELECTORS ***********************************/
+#dm, #features, #country, #skills, #cta, #footer{
+  padding: 7% 15%;
+}
+
+#title{
+  padding: 3% 15% 2% 15%;
+}
+
+#introduction{
+  padding: 5% 15%;
+}
+/******************************* NAVBAR ***********************************/
+.nav{
+  padding-bottom: 4.5rem;
+}
+
+.icon-img{
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.text-brand{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-links{
+  color: #dc3545;
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.nav-links:hover{
+  color: #f00;
+  text-decoration: none;
+}
+
+/******************************* TITLE ***********************************/
+
+.title-img{
+  width: 75%;
+  position: relative;
+  bottom: 10%;
+}
+
+
+/******************************* INTRODUCTION ***********************************/
+
+.intro-text{
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #00f;
+  border-width: 5px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+
+/******************************* DM ***********************************/
+
+.dm-title{
+  background-color: #ff0;
+  border-radius: 25px;
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dm-text{
+  text-align: left;
+  margin: 0;
+}
+
+.dm-img{
+  margin: 0;
+}
+
+/******************************* SKILLS ***********************************/
+
+.skills-title{
+  background-color: #f00;
+  border-radius: 25px;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/******************************* COUNTRY ***********************************/
+
+.country-title{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.country-text{
+  text-align: left;
+  margin: 0;
+  padding-top: 70px;
+}
+
+/******************************* FEATURES ***********************************/
+
+.feature-img{
+  color: #dc3545;
+  font-size: 5rem;
+  padding: 1.3rem;
+}
+
+.feature-img:hover{
+  color: #f00;
+}
+
+.feature-desc{
+  font-weight: 400;
+}
+
+/*********************************** FOOTER *******************************/
+.people-img{
+  width: 75%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f00;
+  border-radius: 200px;
+}
+
+/********************************** MEDIA QUERY ******************************/
+
+@media (max-width: 1024px) {
+  h1{
+    font-size: 3rem;
+  }
+
+  .text-title{
+    font-size: 80%;
+  }
+  .navbar-size{
+    padding: 3%, 7%;
+  }
+
+
+}
