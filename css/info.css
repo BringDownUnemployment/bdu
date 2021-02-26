@@ -230,20 +230,4 @@ h1, h2, h3, h4, h5, h6{
   .big-heading{
     font-size: 250%;
   }
-
-  .img-1{
-    padding: 5%;
-    height: 310px;
-    width: 370px;
-  }
-
-  .img-2{
-    padding: 5%;
-    height: 310px;
-    width: 370px;
-  }
-  .img-3{
-    height: 310px;
-    width: 370px;
-  }
 }
