@@ -230,4 +230,17 @@ h1, h2, h3, h4, h5, h6{
   .big-heading{
     font-size: 250%;
   }
+
+  .img-1{
+    padding: 5%;
+  }
+
+  .img-2{
+    padding: 5%;
+  }
+
+  .intro-text{
+    padding: 10px;
+  }
+
 }
